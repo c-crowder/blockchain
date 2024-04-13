@@ -1,0 +1,30 @@
+{
+  "name": "blockchain-in-js",
+  "version": "1.0.0",
+  "description": "Blockchain prototype in JS",
+  "main": "entry.js",
+  "scripts": {
+    "start": "nodemon entry.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-crowder/blockchain.git"
+  },
+  "keywords": [
+    "blockchain"
+  ],
+  "author": "Caleb Crowder",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-crowder/blockchain/issues"
+  },
+  "homepage": "https://github.com/c-crowder/blockchain#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2"
+  }
+}
